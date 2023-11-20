@@ -1,4 +1,10 @@
-import { Hero } from "../components/hero/index";
+import { Feature } from "components/FeatureSec/Feature";
+import { Hero } from "../components/Hero/Hero";
 export default function Home() {
-	return <Hero></Hero>;
+	return (
+		<>
+			<Hero></Hero>
+			<Feature></Feature>
+		</>
+	);
 }
